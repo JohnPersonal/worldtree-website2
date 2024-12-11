@@ -5,6 +5,7 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: '/worldtree-website2',
+  distDir: 'docs'
 }
 
 module.exports = nextConfig
