@@ -1,11 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/worldtree-website2',
   images: {
     unoptimized: true,
   },
-  basePath: '/worldtree-website2',
-  distDir: 'docs'
 }
 
 module.exports = nextConfig
